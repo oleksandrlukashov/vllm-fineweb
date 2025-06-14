@@ -1,0 +1,129 @@
+deu_Latn: |
+    Extrahieren Sie Entitäten und ihre Typen aus dem gegebenen Text und formatieren Sie die Ausgabe als Liste von Zeichenfolgen.
+
+      Extrahierte Entitäten müssen genau wie im Text geschrieben sein.
+
+      Jede Zeichenfolge muss die Entität gefolgt von ihrem Typ enthalten, getrennt durch "<>".
+
+      Beispiel: Für die Verlagsentität „State University of New York Press“ sollte die Ausgabe „State University of New York Press <> Verlag“ lauten.
+
+      Es dürfen nur benannte Entitäten extrahiert werden.
+
+      Weitere Beispiele:
+
+      Eingabe: Die Harvard University, gegründet 1636, ist die älteste Hochschule der Vereinigten Staaten.
+
+      Ausgabe: ['Harvard University <> Institution']
+
+      Eingabe: Die Microsoft Corporation ist ein von Bill Gates und Paul Allen gegründetes Technologieunternehmen.
+
+      Ausgabe: ['Microsoft Corporation <> Unternehmen', 'Bill Gates <> Gründername', 'Paul Allen <> Gründername']
+
+      Eingabe: Der Eiffelturm ist ein schmiedeeiserner Gitterturm auf dem Champ de Mars in Paris, Frankreich.
+
+      Ausgabe: ['Eiffelturm <> Wahrzeichen', 'Champ de Mars <> Ort', 'Paris <> Stadt', 'Frankreich <> Land']
+
+      Eingabe: Laut Volkszählung 2015 hat Paris eine Bevölkerung von 70.757 Menschen.
+
+      Ausgabe: ['Volkszählung 2015 <> Zeit', '70.757 Menschen <> Anzahl']
+
+      Sie müssen nur die Ausgabe basierend auf dem folgenden Eingabetext generieren:
+      {text}
+
+spa_Latn: |
+    Extraiga las entidades y sus tipos del texto dado y formatee la salida como una lista de cadenas.
+
+      Las entidades extraídas deben escribirse con la misma precisión que en el texto.
+
+      Cada cadena debe contener la entidad seguida de su tipo, separados por "<>".
+
+      Por ejemplo, para la entidad editorial "State University of New York Press", la salida debe ser "State University of New York Press <> Editorial".
+
+      Solo debe extraer las entidades con nombre.
+
+      A continuación, se muestran más ejemplos:
+      Entrada: La Universidad de Harvard, fundada en 1636, es la institución de educación superior más antigua de Estados Unidos.
+
+      Salida: ['Universidad de Harvard <> Institución']
+
+      Entrada: Microsoft Corporation es una empresa tecnológica fundada por Bill Gates y Paul Allen.
+
+      Salida: ['Microsoft Corporation <> Empresa', 'Bill Gates <> nombre del fundador', 'Paul Allen <> nombre del fundador']
+
+      Entrada: La Torre Eiffel es una torre de celosía de hierro forjado ubicada en el Campo de Marte en París, Francia.
+
+      Resultado: ['Torre Eiffel <> monumento', 'Campo de Marte <> ubicación', 'París <> ciudad', 'Francia <> país']
+
+      Entrada: Según el censo de 2015, tiene una población de 70.757 habitantes.
+
+      Resultado: ['Censo de 2015 <> Hora', '70.757 habitantes <> Cantidad']
+
+      Solo necesita generar un resultado basado en el siguiente texto:
+      {text}
+
+fra_Latn: |
+    Extraire les entités et leurs types du texte donné et formater le résultat sous forme de liste de chaînes.
+
+      Les entités extraites doivent être orthographiées exactement comme dans le texte.
+
+      Chaque chaîne doit contenir l'entité suivie de son type, séparés par « <> ».
+
+      Par exemple, pour une entité éditeur « State University of New York Press », le résultat doit être « State University of New York Press <> Éditeur ».
+
+      Vous devez extraire uniquement les entités nommées.
+
+      Voici d'autres exemples :
+
+      Entrée : L'Université Harvard, fondée en 1636, est le plus ancien établissement d'enseignement supérieur des États-Unis.
+
+
+      Sortie : ['Harvard University <> Institution']
+
+
+      Entrée : Microsoft Corporation est une entreprise technologique fondée par Bill Gates et Paul Allen.
+
+
+      Sortie : ['Microsoft Corporation <> Company', 'Bill Gates <> founder name', 'Paul Allen <> founder name']
+
+
+      Entrée : La Tour Eiffel est une tour en treillis de fer forgé située sur le Champ-de-Mars à Paris, en France.
+
+      Sortie : ['Tour Eiffel <> monument', 'Champ de Mars <> lieu', 'Paris <> ville', 'France <> pays']
+
+      Saisie : Selon le recensement de 2015, la population s'élève à 70 757 habitants.
+
+      Sortie : ['recensement de 2015 <> heure', '70 757 personnes <> quantité']
+
+      Vous devez générer une sortie uniquement à partir du texte d'entrée ci-dessous :
+      {text}
+
+ita_Latn: |
+    Estrarre entità e i relativi tipi dal testo fornito e formattare l'output come un elenco di stringhe.
+
+      Le entità estratte devono essere scritte esattamente come nel testo.
+
+      Ogni stringa deve contenere l'entità seguita dal suo tipo, separate da "<>".
+
+      Ad esempio, per un'entità editore "State University of New York Press", l'output deve essere "State University of New York Press <> Editore".
+
+      È necessario estrarre solo le entità denominate.
+
+      Di seguito sono riportati altri esempi:
+      Input: L'Università di Harvard, fondata nel 1636, è la più antica istituzione di istruzione superiore degli Stati Uniti.
+
+      Output: ['Harvard University <> Istituzione']
+
+      Input: Microsoft Corporation è un'azienda tecnologica fondata da Bill Gates e Paul Allen.
+
+      Output: ['Microsoft Corporation <> Azienda', 'Bill Gates <> nome del fondatore', 'Paul Allen <> nome del fondatore']
+
+      Input: La Torre Eiffel è una torre in ferro battuto a traliccio sul Campo di Marte a Parigi, in Francia.
+
+      Output: ['Torre Eiffel <> punto di riferimento', 'Campo di Marte <> luogo', 'Parigi <> città', 'Francia <> paese']
+
+      Input: Secondo il censimento del 2015, la popolazione è di 70.757 persone.
+
+      Output: ['Censimento 2015 <> Ora', '70.757 persone <> Quantità']
+
+      È necessario generare solo l'output in base al testo di input seguente:
+      {text}
